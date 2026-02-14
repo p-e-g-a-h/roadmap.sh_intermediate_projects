@@ -36,10 +36,10 @@ Use the caching-proxy command to start the server or manage the cache.
 
 **Basic Commands**
 
-| Action       | Command                                                   |
-| ------------ | --------------------------------------------------------- |
-| Start Proxy  | `caching-proxy --port 3000 --origin http://dummyjson.com` |
-| View Popular | `caching-proxy clear-cache`                               |
+| Action      | Command                                                   |
+| ----------- | --------------------------------------------------------- |
+| Start Proxy | `caching-proxy --port 3000 --origin http://dummyjson.com` |
+| Clear Cache | `caching-proxy clear-cache`                               |
 
 **Testing the Cache**
 
