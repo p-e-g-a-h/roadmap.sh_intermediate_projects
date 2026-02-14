@@ -9,7 +9,7 @@ A CLI tool that acts as a caching proxy server. It forwards requests to an origi
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/p-e-g-a-h/roadmap.sh_projects.git
+git clone https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects.git
 ```
 
 2. **Navigate to the project folder:**
