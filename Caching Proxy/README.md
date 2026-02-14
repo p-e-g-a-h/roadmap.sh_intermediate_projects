@@ -15,7 +15,7 @@ git clone https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects.git
 2. **Navigate to the project folder:**
 
 ```bash
-cd "roadmap.sh_intermediate_projects/Backend Projects/Caching Proxy CLI"
+cd "roadmap.sh_intermediate_projects/Caching Proxy CLI"
 ```
 
 3. **Install dependencies:**
