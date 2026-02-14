@@ -43,10 +43,15 @@ app.post("/save", async (req, res, next) => {
 
 app.get("/notes", async (req, res, next) => {
   try {
-    const files = await fs.readdir(dirPath);
-    const list = files.map((fileName) => fileName);
+    try {
+      await fs.access(dirPath);
+    } catch (error) {
+      return res.status(404).json({ message: "there is not notes dir." });
+    }
 
-    res.json({ listOfFiles: list });
+    const files = await fs.readdir(dirPath);
+
+    res.json({ listOfFiles: files });
   } catch (error) {
     next(error);
   }
