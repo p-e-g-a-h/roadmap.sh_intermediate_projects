@@ -7,11 +7,11 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const mongoURI = "mongodb://mongodb:27017/todo_db";
+const dbURI = process.env.MONGODB_URI || "mongodb://localhost:27017/todo_app";
 
 (async () => {
   try {
-    await mongoose.connect(mongoURI);
+    await mongoose.connect(dbURI);
     console.log("db connected successfully.");
   } catch (error) {
     console.error(error);
