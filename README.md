@@ -8,3 +8,5 @@
 - [Broadcast Server](https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects/tree/main/Broadcast%20Server): A real-time CLI chat tool that uses Socket.io and node:readline to broadcast messages instantly to all connected users.
 - [Multi-Container Application](https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects/tree/main/Multi-Container%20Application): A todo management API built with Node.js and MongoDB. It uses Docker for containerization and MongoDB Atlas for cloud storage.
   - Live Demo: https://todo-docker-app-5yuz.onrender.com
+- [E-Commerce API](https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects/tree/main/E-Commerce%20API): A simple and fast API to manage a E-Commerce. Built with **Node.js**, **Express**, **TypeScript**, **Zod**, and **PostgreSQL**.
+  - Live Demo:
