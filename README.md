@@ -10,3 +10,4 @@
   - Live Demo: https://todo-docker-app-5yuz.onrender.com
 - [E-Commerce API](https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects/tree/main/E-Commerce%20API): A simple and fast API to manage a E-Commerce. Built with **Node.js**, **Express**, **TypeScript**, **Zod**, and **PostgreSQL**.
   - Live Demo: https://roadmap-sh-intermediate-projects.onrender.com/
+- [Linux Server Setup](https://github.com/p-e-g-a-h/roadmap.sh_intermediate_projects/tree/main/Linux%20Server%20Setup): A step-by-step guide to securing and managing a Linux server according to the roadmap.sh standards.
